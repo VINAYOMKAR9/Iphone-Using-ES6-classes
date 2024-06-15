@@ -26,6 +26,12 @@ class Iphone4{
 }
 let data = new Iphone4(44537,'blue','5.7','108','5.3')
 console.log(data);
+console.log(data.ASIN);
+console.log(data.color);
+console.log(data.display);
+console.log(data.camera);
+console.log(data.Bluetooth);
+
 console.log(data.dial());
 console.log(data.sendMessage());
 console.log(data.cameraClick());
